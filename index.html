@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-slate-600">
+  <div class="bg-white mt-[300px] ml-[200px] mr-[400px] rounded-lg shadow-lg shadow-slate-300   ">
+    <div class="ml-[400px]">
+      <h1 class="font-serif text-2xl"><b>Multiplication Table</b></h1>
+    </div>
+ <div class="pl-[400px] mt-[50px] pb-[30px]">
+  <input type="number" id="number" value="number" placeholder="Enter the number" class=" border p-2 rounded font-bold border-slate-950">
+ <br><button id="submit" class="  hover:bg-red-950 ml-[40px] mt-[20px] p-[10px] rounded-lg bg-blue-600 "><b>Submit</b></button>
+ <button id="reset" class=" hover:bg-red-950 ml-[10px] mt-[20px] p-[10px] rounded-lg bg-blue-600 "><b>Reset</b></button>
+ </div>
+ <div id="table" class=" mt-4 ">
+  <table class="table-auto  border border-slate-700  w-full">
+  <thead class="border border-slate-700">
+    <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Address</th>
+  </tr>
+  </thead>
+  <tbody id="tablebody" >
+    <tr>
+      <td>001</td>
+      <td>Hasib</td>
+      <td>Dhaka</td>
+    </tr>
+  </tbody>
+</table>
+
+ </div>
+  
+
+  </div>
+  <script src="./scripts.js" ></script>
+</body>
+</html>
